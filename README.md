@@ -11,7 +11,7 @@ A mini computer vision project focused on Indian traffic dataset preparation and
 
 ## 🖼️ Sample Annotated Image
 
-![Screenshot 2025-05-26 215917](https://github.com/user-attachments/assets/f9fac03d-9e7f-4944-b719-21bc77146f72)
+![Screenshot 2025-05-26 230556](https://github.com/user-attachments/assets/b57aac72-29ee-415b-8148-ec9c28c97742)
 
 
 
