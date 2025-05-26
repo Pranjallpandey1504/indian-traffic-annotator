@@ -5,6 +5,10 @@ import xml.etree.ElementTree as ET
 IMAGE_DIR = "../images/"
 ANNOTATION_DIR = "../annotations/"
 
+# Resize parameters
+DISPLAY_WIDTH = 800  # you can tweak this
+DISPLAY_HEIGHT = 600
+
 # Loop through all XML files
 for file in os.listdir(ANNOTATION_DIR):
     if file.endswith(".xml"):
@@ -28,7 +32,10 @@ for file in os.listdir(ANNOTATION_DIR):
             cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 2)
             cv2.putText(image, name, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
 
-        cv2.imshow("Annotated Image", image)
+        # Resize image for display
+        resized_image = cv2.resize(image, (DISPLAY_WIDTH, DISPLAY_HEIGHT))
+
+        cv2.imshow("Annotated Image", resized_image)
         cv2.waitKey(0)
 
 cv2.destroyAllWindows()
