@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>green-traffic-light-intersection.jpg</filename>
+	<path>C:\Users\pranj\Downloads\images\green-traffic-light-intersection.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6240</width>
+		<height>3979</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>traffic light</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3239</xmin>
+			<ymin>1259</ymin>
+			<xmax>5461</xmax>
+			<ymax>3354</ymax>
+		</bndbox>
+	</object>
+</annotation>
